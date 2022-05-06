@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE crime-data [
+    <!ELEMENT crime-data (agency)>
+    <!ELEMENT agency (agency-name)>
+    <!ELEMENT agency-name (population, total-offenses, crimes-against-persons, crimes-against-property, crimes-against-society, assault-offenses, aggravated-assault, simple-assault, intimidation, homicide-offenses, murder-and-nonnegligent-manslaughter)>
+
+    <!ELEMENT agency (#PCDATA)>
+    <!ELEMENT agency-name (#PCDATA)>
+    <!ELEMENT population (#PCDATA)>
+    <!ELEMENT total-offenses (#PCDATA)>
+    <!ELEMENT crimes-against-persons (#PCDATA)>
+    <!ELEMENT crimes-against-property (#PCDATA)>
+    <!ELEMENT crimes-against-society (#PCDATA)>
+    <!ELEMENT assault-offenses (#PCDATA)>
+    <!ELEMENT aggravated-assault (#PCDATA)>
+    <!ELEMENT simple-assault (#PCDATA)>
+    <!ELEMENT intimidation (#PCDATA)>
+    <!ELEMENT homicide-offenses (#PCDATA)>
+    <!ELEMENT murder-and-nonnegligent-manslaughter (#PCDATA)>
+
+    <!ATTLIST crime-data location CDATA #REQUIRED>
+    <!ATTLIST agency type CDATA #REQUIRED>
+    <!ATTLIST agency-name name CDATA #REQUIRED>
+]>
+
+<crime-data location="georgia">
+	<agency type="cities">
+        <agency-name name="Abbeville">
+            <population>2654</population>
+            <total-offenses>9</total-offenses>
+            <crimes-against-persons>2</crimes-against-persons>
+            <crimes-against-property>6</crimes-against-property>
+            <crimes-against-society>1</crimes-against-society>
+            <assault-offenses>2</assault-offenses>
+            <aggravated-assault>1</aggravated-assault>
+            <simple-assault>1</simple-assault>
+            <intimidation>0</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="Acworth">
+            <population>23085</population>
+            <total-offenses>9</total-offenses>
+            <crimes-against-persons>2</crimes-against-persons>
+            <crimes-against-property>6</crimes-against-property>
+            <crimes-against-society>102</crimes-against-society>
+            <assault-offenses>175</assault-offenses>
+            <aggravated-assault>37</aggravated-assault>
+            <simple-assault>105</simple-assault>
+            <intimidation>33</intimidation>
+            <homicide-offenses>1</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>1</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="Adairsville">
+            <population>4998</population>
+            <total-offenses>241</total-offenses>
+            <crimes-against-persons>43</crimes-against-persons>
+            <crimes-against-property>113</crimes-against-property>
+            <crimes-against-society>85</crimes-against-society>
+            <assault-offenses>38</assault-offenses>
+            <aggravated-assault>18</aggravated-assault>
+            <simple-assault>8</simple-assault>
+            <intimidation>22</intimidation>
+            <homicide-offenses>8</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+	</agency>
+    <agency type="universities-and-colleges">
+        <agency-name name="agnes-scott-college">
+            <population>1076</population>
+            <total-offenses>10</total-offenses>
+            <crimes-against-persons>0</crimes-against-persons>
+            <crimes-against-property>10</crimes-against-property>
+            <crimes-against-society>0</crimes-against-society>
+            <assault-offenses>0</assault-offenses>
+            <aggravated-assault>0</aggravated-assault>
+            <simple-assault>0</simple-assault>
+            <intimidation>0</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="albany-technical-college">
+            <population>4583</population>
+            <total-offenses>2</total-offenses>
+            <crimes-against-persons>0</crimes-against-persons>
+            <crimes-against-property>2</crimes-against-property>
+            <crimes-against-society>0</crimes-against-society>
+            <assault-offenses>0</assault-offenses>
+            <aggravated-assault>0</aggravated-assault>
+            <simple-assault>0</simple-assault>
+            <intimidation>0</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="athens-technical-college">
+            <population>6365</population>
+            <total-offenses>0</total-offenses>
+            <crimes-against-persons>0</crimes-against-persons>
+            <crimes-against-property>0</crimes-against-property>
+            <crimes-against-society>0</crimes-against-society>
+            <assault-offenses>0</assault-offenses>
+            <aggravated-assault>0</aggravated-assault>
+            <simple-assault>0</simple-assault>
+            <intimidation>0</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+    </agency>
+    <agency type="metropolitan-countries">
+        <agency-name name="barrow">
+            <population>n/a</population>
+            <total-offenses>2739</total-offenses>
+            <crimes-against-persons>748</crimes-against-persons>
+            <crimes-against-property>1604</crimes-against-property>
+            <crimes-against-society>387</crimes-against-society>
+            <assault-offenses>672</assault-offenses>
+            <aggravated-assault>72</aggravated-assault>
+            <simple-assault>339</simple-assault>
+            <intimidation>261</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="bartow">
+            <population>n/a</population>
+            <total-offenses>2350</total-offenses>
+            <crimes-against-persons>374</crimes-against-persons>
+            <crimes-against-property>1944</crimes-against-property>
+            <crimes-against-society>32</crimes-against-society>
+            <assault-offenses>304</assault-offenses>
+            <aggravated-assault>69</aggravated-assault>
+            <simple-assault>230</simple-assault>
+            <intimidation>5</intimidation>
+            <homicide-offenses>4</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>4</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="blbb">
+            <population>n/a</population>
+            <total-offenses>12245</total-offenses>
+            <crimes-against-persons>3235</crimes-against-persons>
+            <crimes-against-property>8577</crimes-against-property>
+            <crimes-against-society>433</crimes-against-society>
+            <assault-offenses>2954</assault-offenses>
+            <aggravated-assault>1169</aggravated-assault>
+            <simple-assault>1286</simple-assault>
+            <intimidation>499</intimidation>
+            <homicide-offenses>48</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>40</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+    </agency>
+    <agency type="nonmetropolitan-countries">
+        <agency-name name="atkinson">
+            <population>n/a</population>
+            <total-offenses>303</total-offenses>
+            <crimes-against-persons>84</crimes-against-persons>
+            <crimes-against-property>140</crimes-against-property>
+            <crimes-against-society>79</crimes-against-society>
+            <assault-offenses>73</assault-offenses>
+            <aggravated-assault>21</aggravated-assault>
+            <simple-assault>29</simple-assault>
+            <intimidation>23</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="baldwin">
+            <population>n/a</population>
+            <total-offenses>1560</total-offenses>
+            <crimes-against-persons>577</crimes-against-persons>
+            <crimes-against-property>871</crimes-against-property>
+            <crimes-against-society>112</crimes-against-society>
+            <assault-offenses>112</assault-offenses>
+            <aggravated-assault>536</aggravated-assault>
+            <simple-assault>97</simple-assault>
+            <intimidation>340</intimidation>
+            <homicide-offenses>99</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>3</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="banks">
+            <population>n/a</population>
+            <total-offenses>743</total-offenses>
+            <crimes-against-persons>178</crimes-against-persons>
+            <crimes-against-property>466</crimes-against-property>
+            <crimes-against-society>99</crimes-against-society>
+            <assault-offenses>159</assault-offenses>
+            <aggravated-assault>30</aggravated-assault>
+            <simple-assault>102</simple-assault>
+            <intimidation>27</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+    </agency>
+    <agency type="other">
+        <agency-name name="atlanta-puclic-schools">
+            <population>n/a</population>
+            <total-offenses>301</total-offenses>
+            <crimes-against-persons>138</crimes-against-persons>
+            <crimes-against-property>114</crimes-against-property>
+            <crimes-against-society>49</crimes-against-society>
+            <assault-offenses>122</assault-offenses>
+            <aggravated-assault>0</aggravated-assault>
+            <simple-assault>122</simple-assault>
+            <intimidation>0</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="cobb-country-board-of-education">
+            <population>n/a</population>
+            <total-offenses>454</total-offenses>
+            <crimes-against-persons>239</crimes-against-persons>
+            <crimes-against-property>126</crimes-against-property>
+            <crimes-against-society>89</crimes-against-society>
+            <assault-offenses>213</assault-offenses>
+            <aggravated-assault>2</aggravated-assault>
+            <simple-assault>174</simple-assault>
+            <intimidation>37</intimidation>
+            <homicide-offenses>0</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+        <agency-name name="decatur-country-schools">
+            <population>n/a</population>
+            <total-offenses>6</total-offenses>
+            <crimes-against-persons></crimes-against-persons>
+            <crimes-against-property>4</crimes-against-property>
+            <crimes-against-society>0</crimes-against-society>
+            <assault-offenses>2</assault-offenses>
+            <aggravated-assault>4</aggravated-assault>
+            <simple-assault>0</simple-assault>
+            <intimidation>2</intimidation>
+            <homicide-offenses>2</homicide-offenses>
+            <murder-and-nonnegligent-manslaughter>0</murder-and-nonnegligent-manslaughter>
+        </agency-name>
+    </agency>
+</crime-data>
